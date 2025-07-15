@@ -1,0 +1,226 @@
+body {
+    /* font-family: 'Helvetica', sans-serif; */
+    
+    margin: 0  ;
+    padding: 0;
+    background-color: #fff;
+  }
+
+
+
+
+/* For first section */
+.navbar {
+  padding: 10px 20px;
+  width: 100%;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.08);
+  font-family:  'Helvetica Neue', Arial, 'Noto Sans', sans-serif;  /* font size not affect because '<a>' overide */
+}
+
+.navbar-container {
+  display: flex;       /* Align three items in one container */
+  align-items: center;
+}
+
+.logo-container {
+  margin-right: 0px;
+}
+
+.logo {
+  margin-top:35px;
+  margin-left: 130px;
+  height: 53px;
+  /* object-fit: contain; */
+  margin-bottom: 30px;
+}
+
+.navbar a{
+  color: #292929;
+  margin: 0 12px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* For top row and  bottom row*/
+.both-row {
+  margin-left: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+/* For align both left side section and right side at top */
+.top-row {
+  margin-top: 1px;
+  display: flex;
+ align-items: center;
+}
+
+.top-row,
+.top-row * {
+  font-size: 14px !important;
+  gap: 2px;
+}
+
+/* For align items/texts in left side and right side of top */
+.top-left, .top-right {
+  display: flex;     
+  align-items: center;
+}
+
+.top-left{
+  margin-right: 270px;
+}
+
+.top-right{
+  margin-right: 175px;
+  gap: 20px;
+}
+
+/* For bottom */
+.bottom-row {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-right: 10px; 
+}
+
+/* For button */
+.order-btn {
+  background-color: #ffbc0d;
+  border: none;      /* for remove default border in button */
+  padding: 12px 26px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+.second-section{
+  margin-top: 75px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  font-family:  Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+/*For image */
+.second-left{
+  width: 175%;
+  margin-left: 125px;
+}
+
+.second-img img{
+  width: 97%;
+  display: block;
+  margin-right: 250px;
+}
+
+.second-right{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  margin-right: 100px;
+}
+
+.second-heading h1{
+
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 0;
+  /* margin: 20px 0 0 0 ; */
+  padding: 0;
+ /* margin-bottom: 15px; */
+  font-family:  Helvetica Neue, Arial, Noto Sans, sans-serif;
+}
+
+.second-text1 p{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: inline-block;
+  font-family:  Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  font-size: 1 rem;
+}
+
+.bottom-btn{
+  background-color: #ffbc0d;
+  border: none;      /* for remove default border in button */
+  padding: .8125rem 1.5625rem;
+  min-width: 11.125rem;
+  min-height: 3rem;
+  line-height: 1.25rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* For 'ul' list */
+.listing li{
+  font-weight: bold;
+}
+.listing li::marker{   /* '::marker' is a 'pseudo-element'(used for give style for element,if even that element is not exist in 'html')targets default 'bullets' in 'ul' and 'number' in 'ol'. And '::after' for add a content/element after and '::before' used for put element before by using keyword 'content:'$'.*/
+  font-weight: normal;
+}
+
+/* For adjust the image of 4th section */
+.left-section4{
+  max-width: 90%;
+  margin-left: 125px;
+}
+
+.footer{
+  padding: 5%;
+}
+.footer-container{
+  display: flex;
+  align-items: flex-start;
+  margin: 0 3%;
+  gap:4.5rem;       /* 'rem' means 'root element' measurement(eg,'font-size:16px' then '1rem = 16px','2rem = 32px') and 'em' means 'parent element size','vh-viewport height', 'vw = viewport height' */
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  
+}
+
+.footer-column li{
+  margin-bottom: 8px;
+}
+
+.footer-listing{
+  list-style: none;  /* For remove defualt 'bullets' in 'ul'*/
+}
+
+
+.footer-bottom{
+  display: flex;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.social-icons{
+  display: flex;
+  align-items: center;
+  margin-left: 6%;
+  gap: 1rem;
+}
+
+.app-links{
+  display: flex;
+  align-items: center;
+  margin-left: 43%;
+}
+
+
+
+
+
+
+
+
+
+
