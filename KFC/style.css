@@ -10,6 +10,9 @@ body{
     background-color: rgb(255, 255, 255);
     padding: 19px 84px;
     font-family: 'Open Sans', ui-sans-serif, system-ui, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    position: sticky;
+    top:0;            /* for 'position: sticky'*/
+    z-index: 1000;
 }
 
 /* For left side in header */
